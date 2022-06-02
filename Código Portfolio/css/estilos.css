@@ -1,0 +1,85 @@
+/* Hola! Aclaro que traté de acomodar los elementos en la página, más que nada probando con "position", no está muy bien pero me entusiasmé y quería empezar a ver cómo funcionaba :)) */
+@font-face {
+    font-family: FrauncesTitulo;
+    src: url(../fuentes/fraunces/Fraunces_28pt-SemiBold.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: GothamTextoLight;
+    src: url(../fuentes/gotham/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: GothamTextoUltra;
+    src: url(../fuentes/gotham/Gotham-Ultra.otf);
+}
+
+@font-face {
+    font-family: GothamTextoBook;
+    src: url(../fuentes/gotham/Gotham-Book.otf);
+}
+
+@font-face {
+    font-family: GothamTextoBookItalic;
+    src: url(../fuentes/gotham/Gotham-BookIta.otf);
+}
+
+/*@media (max-width: 200px)*/
+
+
+body {
+    /*font-size: 100%*/
+    width: 1920px;
+    height: 1080px;
+    background-color:#F2F2F2;
+}
+
+h3 {
+    font-family: GothamTextoUltra;
+    font-size: 7.5em;
+    color: rgb(128, 194, 175, 18%);
+    position: absolute;top: 120px; left: 740px;
+}
+
+h1 {
+    font-family: FrauncesTitulo;
+    font-size: 13.75em;
+    position: absolute;top: 160px; left: 300px;
+}
+
+p {
+    font-family: GothamTextoLight;
+    font-size: 1.75em;
+    position: absolute;top: 580px; left: 310px;
+}
+
+
+p3 {
+    font-family: GothamTextoBook;
+    font-size: 1.166em;
+    text-decoration: underline;
+    position: absolute;top: 37.09px; left: 1800px;
+}
+
+p4 {
+    font-family: GothamTextoBook;
+    font-size: 1.166em;
+    text-decoration: underline;
+    position: absolute;top: 37.09px; left: 1980px;
+}
+
+
+p5 {
+    font-family: GothamTextoBook;
+    font-size: 1.166em;
+    text-decoration: underline;
+    position: absolute;top: 37.09px; left: 2100px;
+}
+
+h2 {
+    font-family: GothamTextoBookItalic;
+    font-size: 1.5em;
+    position: absolute; top: 18px; left: 37px;
+}
+
